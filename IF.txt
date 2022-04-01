@@ -1,6 +1,13 @@
-int a = 5
-int b = 3
-if (a+b>10)
+int a = 9
+int b = 7
+if (a+b>20)
 {
-Console.WriteLine("The answer is grerater than 10");
+Console.WriteLine("The answer is grerater than 20");
+}
+else if (a+b>15)
+Console.WriteLine("The answer is between 20 and 15");
+}
+else
+{
+Console.WriteLine("The answer is not greater than 15");
 }
